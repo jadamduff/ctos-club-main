@@ -205,7 +205,7 @@
 
 #cto_label {
     opacity: 0;
-    margin: 0 0 0 35px;
+    margin: 0 0 0 25px;
     transition: opacity 1.5s, margin 1.5s;
 }
 

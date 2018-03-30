@@ -9,9 +9,11 @@ $(document).ready(function() {
         if ($(window).width() < 650) {
             isMobile = true;
             $('#header_logo').attr('src', 'images/logo_hero_2x2.png');
+            $('#linkedin_logo').attr('src', 'images/linkedin_logo2x.png');
         } else {
             isMobile = false;
             $('#header_logo').attr('src', 'images/logo_hero2.png');
+            $('#linkedin_logo').attr('src', 'images/linkedin_logo.png');
         }
     }
     
