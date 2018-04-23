@@ -1,0 +1,567 @@
+html {
+    height: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+}
+
+.header {
+    width: 100%;
+    height: 84px;
+    padding: 30px 0;
+    position: absolute;
+    top: 0;
+    transition: height .15s;
+    vertical-align: middle;
+    text-align: center;
+    z-index: 6;
+}
+
+.header_contents {
+    width: 100%;
+    max-width: 1280px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 84px;
+}
+
+#header_logo {
+    float: left;
+    padding: 0 0 0 50px;
+    margin: 15px 0 0 0;
+}
+
+.hamburger_wrap {
+    width: 30px;
+    float: right;
+    margin: 21px 50px 0 0;
+    vertical-align: middle;
+}
+
+.hamburger_bar {
+    height: 2px;
+    width: 100%;
+    margin-top: 9px;
+    background-color: #0E6CD8;
+}
+
+.hamburger_wrap:hover {
+    cursor: pointer;
+}
+
+#hero_wrapper {
+    margin: 114px 0 0 0;
+    padding: 0 0 85px 0;
+    z-index: 5;
+    position: relative;
+}
+
+#hero_contents {
+    margin: 200px 0 0 0;
+    text-align: center;
+}
+
+#hero_header {
+    font-family: Lato;
+    font-size: 48px;
+    color: #757575;
+    font-weight: 400;
+    line-height: 62px;
+    max-width: 600px;
+    margin: 0;
+    display: inline-block;
+}
+
+#hero_subtext {
+    font-family: Lato;
+    font-size: 22px;
+    color: #9e9e9e;
+    font-weight: 300;
+    line-height: 36px;
+    margin: 25px 0 0 0;
+    max-width: 600px;
+    display: inline-block;
+}
+
+#hero_formbox {
+    width: 340px;
+    height: 257px;
+    border-radius: 3px;
+    background-color: #F8F9FB;
+    display: inline-block;
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+
+#hero_formbox1 {
+    width: 340px;
+    border-radius: 3px;
+    background-color: #F8F9FB;
+    margin: 0;
+    box-shadow: 0px 6px 16px -7px #bdbdbd;
+    text-align: center;
+    display: none;
+}
+
+.hero_formbox_field {
+    width: 330px;
+    padding: 20px 15px 10px 15px;
+    margin: 0 35px;
+    border: none;
+    border-bottom: 1px solid #DBE0E6;
+    background-color: #F8F9FB;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Lato;
+    font-size: 18px;
+    color: #727B89;
+    font-weight: 300;
+}
+
+.hero_formbox_field::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #C6CBD1;
+    opacity: 1;
+    font-weight: 300;
+}
+
+.hero_formbox_field:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+    font-weight: 300;
+}
+
+.hero_formbox_field::-ms-input-placeholder { /* Microsoft Edge */
+    color: red;
+    font-weight: 300;
+}
+
+.hero_formbox_submit {
+    width: 350px;
+    height: 50px;
+    margin: 15px 25px;
+    background: linear-gradient(to bottom left, #2B84EC, #0E6CD8);
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: Lato;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0px 6px 16px -4px #bdbdbd;
+    transition: background 0.3s, margin 0.3s;
+}
+
+.hero_formbox_submit:hover {
+    background: linear-gradient(to bottom left, #0E6CD8, #0E6CD8);
+    margin: 14px 25px 16px 25px;
+    cursor: pointer;
+}
+
+.block1 {
+    background-color: #fafbfc;
+    width: 100%;
+    padding: 25px 0;
+    box-shadow: 0px 6px 12px -8px #616161;
+    z-index: 5;
+    position: relative;
+    text-align: center;
+}
+
+#block1_section1 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+#block1_li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+#block1_li li {
+    width: 150px;
+    font-family: Lato;
+    display: inline-block;
+    height: 125px;
+}
+
+.block1_break1 {
+    display: none;
+}
+
+.block1_li_step {
+    background-color: #fff;
+    width: 125px;
+    height: 125px;
+    border-radius: 75px;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    display: inline-block;
+    font-family: Lato;
+    font-size: 14;
+    color: #616161;
+    font-weight: 300;
+}
+
+.block1_break2 {
+    display: none;
+}
+
+.block2 {
+    background: linear-gradient(to bottom left, #2B84EC, #0E6CD8);
+    width: 100%;
+    margin: 0;
+    z-index: 4;
+    text-align: center;
+    font-family: Lato;
+    padding: 0 0 75px 0;
+}
+
+.block2_header {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    padding: 75px 0 0 0;
+    letter-spacing: 3px;
+
+}
+
+.block2_card_ul {
+    list-style-type: none;
+    padding: 60px 0 80px 0;
+    margin: 0;
+}
+
+.block2_card_li {
+    display: inline-block;
+    margin: 15px 20px;
+}
+
+.block2_card {
+    width: 230px;
+    background-color: #fff;
+    height: 300px;
+    border-radius: 2px;
+    box-shadow: 0px 6px 12px -4px #0a50a1, -1px 0px 16px -4px #0a50a1;
+    display: inline-block;
+    z-index: 5;
+    vertical-align: top;
+    padding: 15px 10px;
+}
+
+#block2_card_br {
+    display: none;
+}
+
+#block2_text {
+    font-family: Lato;
+    font-size: 52px;
+    color: #e2efff;
+    text-align: center;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+.gray_subtext {
+    margin: 25px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    color: #757575;
+}
+
+
+/* Wufoo Form Styles */
+
+#wufoo-mw3m4ww0j1g15t {
+   width: 300px;
+   text-align: center;
+   display: inline-block !important;
+}
+
+form.wufoo {
+    padding: 0;
+}
+
+wufoo-form-container {
+    max-height: 367px;
+}
+
+input.text {
+    background: none;
+}
+
+form span.req {
+    display: none !important;
+}
+
+.wufoo label.desc {
+    color: #1a3c4c;
+    font-size: 16px;
+    margin: 5px 0 5px 0;
+}
+
+.info[class] {
+    display: none;
+}
+
+.info {
+    display: none;
+    clear: both;
+    margin: 0 0 5px 0;
+    padding: 0 1% 1.1em 1%;
+    border-bottom: 1px dotted #ccc;
+}
+
+.noI {
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+}
+
+.wufoo input.btTxt {
+    width: 300px;
+    height: 50px;
+    margin: 20px 0 15px 0;
+    background: linear-gradient(to bottom left, #2B84EC, #0E6CD8);
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: Lato;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0px 6px 16px -4px #bdbdbd;
+    transition: background 0.3s, margin 0.3s;
+    border: 0px;
+    outline: none;
+}
+
+.wufoo input.btTxt:hover {
+    background: linear-gradient(to bottom left, #0E6CD8, #0E6CD8);
+    margin: 19px 0 16px 0;
+    cursor: pointer;
+}
+
+form li {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    background-color: transparent;
+    position: relative;
+    -webkit-transition: background-color 350ms ease-out;
+    transition: background-color 350ms ease-out;
+}
+
+form li.buttons {
+    padding: 0;
+}
+
+.embed #container {
+    background-color: #F8F9FB;
+}
+
+.wufoo label.desc {
+    display: none;
+}
+
+.wufoo input.text {
+    width: 300px;
+    border: none;
+    padding: 20px 15px 10px 15px;
+    border-bottom: 1px solid #DBE0E6;
+    background-color: #F8F9FB;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Lato;
+    font-size: 18px;
+    color: #727B89;
+    font-weight: 300 !important;
+    font-style: normal;
+    margin: 0 5px;
+}
+
+.wufoo input.text::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #C6CBD1;
+    opacity: 1;
+    font-weight: 300 !important;
+}
+
+.wufoo input.text:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #C6CBD1;
+    font-weight: 300 !important;
+}
+
+.wufoo input.text::-ms-input-placeholder { /* Microsoft Edge */
+    color: #C6CBD1;
+    font-weight: 300 !important;
+}
+
+.wufoo li.focused {
+    background-color: #F8F9FB;
+}
+
+.wufoo li div {
+    background-color: #F8F9FB;
+}
+
+#errorLi, .error-container {
+    display: none;
+}
+
+form li.error p.error {
+    background-color: #F8F9FB;
+}
+
+wufoo-form-container {
+    height: 257px !important;
+}
+
+
+
+/* Mobile */
+
+@media only screen and (max-width: 1180px) {
+    #block2_card_br {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    
+    #hero_wrapper {
+        padding: 0 0 50px 0;
+    }
+    
+    .block1_break1 {
+        display: inherit;
+    }
+    
+    #block1_li {
+        margin: 0 0 10px 0;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    
+    #hero_wrapper {
+        padding: 0 0 0 0;
+    }
+    
+    #hero_contents {
+        margin: 150px 0 0 0;
+    }
+    
+    #hero_header {
+        font-size: 38px;
+        line-height: 48px;
+        max-width: 300px;
+    }
+    
+    #hero_subtext {
+        max-width: 310px;
+    }
+    
+    .block1 {
+        background-color: #fff;
+    }
+    
+    .block1_break2 {
+        display: inherit;
+    }
+    
+    #block1_li li {
+        width: 150px;
+        font-family: Lato;
+        display: inline-block;
+        height: 125px;
+        margin: 10px 0;
+    }
+    
+    #hero_formbox {
+        width: 340px;
+        text-align: center;
+        border: 1px solid #eeeeee;
+    }
+    
+    #hero_formbox1 {
+        width: 340px;
+    }
+    
+    .hero_formbox_field {
+        width: 300px;
+    }
+    
+    .hero_formbox_submit {
+        width: 300px;
+    }
+    
+    .wufoo input.text {
+        width: 300px;
+    }
+    
+    .wufoo input.btTxt {
+        width: 300px;
+    }
+    
+    .noI {
+        width: 300px;
+    }
+    
+    #wufoo-mw3m4ww0j1g15t {
+       width: 300px;
+    }
+    
+    .wufoo input.text {
+        width: 340px;
+        border: none;
+        padding: 20px 15px 10px 15px;
+        border-bottom: 1px solid #DBE0E6;
+        background-color: #F8F9FB;
+        box-sizing: border-box;
+        outline: none;
+        font-family: Lato;
+        font-size: 18px;
+        color: #727B89;
+        font-weight: 400 !important;
+        font-style: normal;
+        margin: 0 5px;
+    }
+    
+    .wufoo input.text::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #C6CBD1;
+        opacity: 1;
+        font-weight: 400 !important;
+    }
+    
+    .wufoo input.text:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #C6CBD1;
+        font-weight: 400 !important;
+    }
+    
+    .wufoo input.text::-ms-input-placeholder { /* Microsoft Edge */
+        color: #C6CBD1;
+        font-weight: 400 !important;
+    }
+    
+    .wufoo input.btTxt {
+        font-size: 16px;
+    }
+}
